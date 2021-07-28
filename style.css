@@ -1,0 +1,611 @@
+body {
+    position: relative;
+    background-color: white;
+    font-family: roboto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 182px;
+    height: 62px;
+    left: 75px;
+    top: 60px;
+}
+
+.imagen1 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 740px;
+    top: -93px;
+}
+
+h1 {
+    position: absolute;
+    width: 594px;
+    height: 61px;
+    left: 88px;
+    top: 220px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+    position: absolute;
+    width: 612px;
+    height: 111px;
+    left: 84px;
+    top: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#scrollCifrado {
+    position: absolute;
+    width: 249px;
+    height: 65px;
+    left: 85px;
+    top: 480px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 249px;
+    text-align: center;
+    border: 1px solid purple;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #540AF0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    border-style: none;
+}
+
+#scrollDescifrado {
+    position: absolute;
+    width: 256px;
+    height: 65px;
+    left: 373px;
+    top: 480px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+    color: #540AF0;
+    background: #FFFFFF;
+    border: 3px solid #540AF0;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.icono1 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 221px;
+    top: 130px;
+}
+
+.subtitulo1 {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 223px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.instruccion1 {
+    position: absolute;
+    width: 231px;
+    height: 50px;
+    left: 168px;
+    top: 285px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icono2 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 630px;
+    top: 130px;
+}
+
+.subtitulo2 {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 630px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.instruccion2 {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 540px;
+    top: 285px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icono3 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 1055px;
+    top: 130px;
+}
+
+.subtitulo3 {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 1055px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.instruccion3 {
+    position: absolute;
+    width: 268px;
+    height: 50px;
+    left: 980px;
+    top: 285px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.instructivo {
+    position: relative;
+    width: 1440px;
+    height: 450px;
+    left: 0px;
+    top: 831px;
+    background: #3603A2;
+}
+
+.tituloInstructivo {
+    position: absolute;
+    width: 352px;
+    height: 34px;
+    left: 544px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#contenedorCifrado {
+    position: absolute;
+    width: 1440px;
+    height: 1800px;
+    left: 0px;
+    top: 1275px;
+    background: rgba(84, 10, 240, 0.12);
+}
+
+.cifrado {
+    position: absolute;
+    width: 1295px;
+    height: 800px;
+    left: 75px;
+    top: 50px;
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+.tituloCifrado {
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    left: 513px;
+    top: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #444444;
+}
+
+#denuncia {
+    position: absolute;
+    width: 1136px;
+    height: 235px;
+    left: 78px;
+    top: 120px;
+    padding-inline-start: 30px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: roboto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+ ::placeholder {
+    position: relative;
+    width: 228px;
+    height: 27px;
+    left: 35px;
+    top: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+#desplazamiento {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 79px;
+    top: 380px;
+    font-size: 18px;
+    padding-inline-start: 12px;
+    border: 2px solid #3603A1;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+input::placeholder {
+    position: relative;
+    width: 100px;
+    height: 27px;
+    left: 2px;
+    top: 1px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+#btncifrado1 {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 320px;
+    top: 380px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #540AF0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    border-style: none;
+}
+
+#textoCifrado {
+    position: absolute;
+    width: 1136px;
+    height: 235px;
+    left: 78px;
+    top: 480px;
+    padding-inline-start: 30px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: roboto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#descifrado {
+    position: absolute;
+    width: 1295px;
+    height: 800px;
+    left: 75px;
+    top: 2180px;
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+.tituloDescifrado {
+    position: absolute;
+    width: 290px;
+    height: 43px;
+    left: 513px;
+    top: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #444444;
+}
+
+#denunciaCifrada {
+    position: absolute;
+    width: 1136px;
+    height: 235px;
+    left: 78px;
+    top: 120px;
+    padding-inline-start: 30px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: roboto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+ ::placeholder {
+    position: relative;
+    width: 300px;
+    height: 27px;
+    left: 35px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+#btndescifrado1 {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 320px;
+    top: 380px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #540AF0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    border-style: none;
+}
+
+#textoDescifrado {
+    position: absolute;
+    width: 1136px;
+    height: 235px;
+    left: 78px;
+    top: 480px;
+    padding-inline-start: 30px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: roboto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.subir {
+    position: relative;
+    width: 31px;
+    height: 37px;
+    left: 136px;
+    top: 1730px;
+    cursor: pointer;
+}
+
+.imagenFooter {
+    position: absolute;
+    width: 753px;
+    height: 753px;
+    left: -250px;
+    top: 1045px;
+}
+
+#contenedorCompartir {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 1295px;
+    height: 800px;
+    left: 75px;
+    top: 1325px;
+    background: rgba(234, 226, 253, 0.85);
+    border-radius: 19px;
+}
+
+.contenedorx {
+    position: relative;
+    width: 556px;
+    height: 478px;
+    left: 408px;
+    top: 40px;
+    justify-content: center;
+    align-content: center;
+    background: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.30);
+    border-radius: 19px;
+}
+
+.whatsapp {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 63px;
+    top: 331px;
+}
+
+.facebook {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 180px;
+    top: 331px;
+}
+
+.linkedin {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 297px;
+    top: 331px;
+}
+
+.instagram {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 414px;
+    top: 331px;
+}
+
+.tituloCompartir {
+    position: absolute;
+    width: 344px;
+    height: 87px;
+    left: 112px;
+    top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.91);
+}
+
+#textoCompartir {
+    position: absolute;
+    width: 344px;
+    height: 100px;
+    left: 100px;
+    top: 180px;
+    text-align: center;
+}
+
+.close {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    left: 500px;
+    top: 30px;
+    pointer-events: auto;
+}
+
+.compartir {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    left: 1226px;
+    top: 500px;
+}
+
+#reload {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    left: 1188px;
+    top: 566px;
+}
+
+#clave {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: 79px;
+    top: 380px;
+    font-size: 18px;
+    padding-inline-start: 12px;
+    border: 2px solid #3603A1;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+input::placeholder {
+    position: relative;
+    width: 100px;
+    height: 27px;
+    left: 2px;
+    top: 1px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}

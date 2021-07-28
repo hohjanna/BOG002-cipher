@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <div id="Bienvenidos">
+        <h1>¡Bienvenid@s!</h1>
+        <img class="logo" src="Recursos/Pascal.png" alt="logoPascal">
+        <p>Pascal te acompaña en las malas situaciones. Comparte tu denuncia sin miedo a ser juzgado/a por medio de nuestros mensajes cifrados y compartelo en las redes para que otros conozcan tu realidad</p>
+        <img class="imagen1" src="Recursos/Imagen.png" alt="imagenPascal">
+        <a id="scrollCifrado" href="#cajaCifrado">Cifrar mensaje</a>
+        <a id="scrollDescifrado" href="#descifrado">Descifrar mensaje</a>
+    </div>
+
+
+    <div class="instructivo">
+        <h2 class="tituloInstructivo">¿Cómo hacer tu denuncia?</h2>
+
+        <div>
+            <img class="icono1" src="Recursos/Paso 1.png">
+            <h3 class="subtitulo1">Paso 1</h3>
+            <p class="instruccion1">Selecciona el botón cifrar mensaje</p>
+        </div>
+        <div>
+            <img class="icono2" src="Recursos/Paso 2.png">
+            <h3 class="subtitulo2">Paso 2</h3>
+            <p class="instruccion2">Escribe tu denuncia y selecciona el botón cifrar mensaje</p>
+        </div>
+        <div>
+            <img class="icono3" src="Recursos/Paso 3.png">
+            <h3 class="subtitulo3">Paso 3</h3>
+            <p class="instruccion3">Comparte tu denuncia cifrada en redes sociales</p>
+        </div>
+    </div>
+
+    <div id="contenedorCifrado">
+        <div id="cajaCifrado">
+            <img class="imagenFooter" src="Recursos/Ellipse.png" alt="subir">
+            <a href="#Bienvenidos"><img class="subir" src="Recursos/Subir.png" alt="flechaSubir"></a>
+            <section class="cifrado">
+                <h2 class="tituloCifrado">Cifrar tu denuncia</h2>
+                <form>
+                    <textarea type="text" id="denuncia" rows="10" cols="40" placeholder="Escribe tu denuncia aquí"></textarea>
+                    <input type="number" id="desplazamiento" placeholder="Elije un número">
+                </form>
+                <button id="btncifrado1" mensaje>Cifrar mensaje</button>
+                <textarea type="text" id="textoCifrado" rows="20" cols="40" disabled="disabled"></textarea>
+                <button class="compartir" name="boton" type="submit"><img src="Recursos/Compartir.png"></button>
+                <button id="reload" name="boton" type="reset"><img src="Recursos/Borrar.png"></button>
+            </section>
+        </div>
+    </div>
+
+    <div id="contenedorCompartir">
+        <div class="contenedorx">
+            <h1 id="textoCompartir"></h1>
+            <p class="tituloCompartir">¡Tu denuncia esta lista para ser compartida al mundo!</p>
+            <button class="close" name="boton" type="submit"><img src="Recursos/close.png"></button>
+            <div>
+                <a href="https://www.whatsapp.com/" target="_blank"><img class="whatsapp" src="Recursos/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="Recursos/facebook.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin" src="Recursos/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="Recursos/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="cajaDescifrado">
+        <section id="descifrado">
+            <h2 class="tituloDescifrado">Descifrar denuncia</h2>
+            <form>
+                <textarea type="text" id="denunciaCifrada" rows="10" cols="40" placeholder="Pega la denuncia cifrada aquí"></textarea>
+            </form>
+            <input type="number" id="clave" placeholder="Insertar clave">
+            <button id="btndescifrado1" mensaje>Descifrar mensaje</button>
+            <textarea type="text" id="textoDescifrado" rows="10" cols="40" disabled="disabled"></textarea>
+        </section>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
